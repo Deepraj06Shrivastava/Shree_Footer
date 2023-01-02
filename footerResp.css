@@ -1,0 +1,79 @@
+
+
+@media only screen and (max-width: 26.25em) {
+    body,html{
+        width: 25.87rem;
+    }
+    .footer{
+        width: 25.87rem;
+    }
+    .footer_first p{
+        font-size: 1.5rem;
+        margin-left: 0px;
+    }
+    .footer_first input{
+        width: 15.5rem;
+        margin-right: 126px;
+    }
+    .footer_first button{
+        width: 7rem;
+        margin-right: -235px;
+    }
+    .our_product{
+        width: 25.87rem;
+    }
+    .our_product p{
+        width: 14.87rem;
+        margin-left: 0;
+    }
+    .our_product-img{
+        display: none;
+    }
+    .footer_third{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .footer_third {
+        height: 75rem;
+    }
+    .footer_fourth{
+        width: 25.87rem;
+    }
+    .rcHero{
+        width: 25.87rem;
+    }
+    .marquee{
+        width: 25.87rem;
+    }
+    marquee{
+        width: 25.87rem;
+        border-right: 1px solid black;
+    }
+    .copyright{
+        width: 25.87rem;
+    }
+    .map_img{
+        width: 360px;
+    }
+    iframe{
+        width: 360px;
+    }
+    .mapmenu{
+        width: 360px;
+    }
+    .ourbrands{
+        width: 25.87rem;
+    }
+    .dot{
+        display: none;
+    }
+    .our_brands{
+        width: 25.87rem;
+    }
+
+
+
+
+
+}    

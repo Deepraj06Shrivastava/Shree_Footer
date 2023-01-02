@@ -1,0 +1,385 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    width: 94.95rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 31, 28);
+    padding-top: 2rem;
+    margin: 0;
+}
+.footer_first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+.footer_first p{
+    display: block;
+    margin: 0;
+    margin-left: 32px;
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    color: white;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+}
+.footer_first input{
+    width: 30rem;
+    height: 3rem;
+    caret-color: black;
+    padding: 0.5rem;
+    margin: 0;
+    border-right: 0px;
+    border-bottom: 0px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    outline: none;
+    caret-color: red;
+}
+.footer_first button{
+    width: 8rem;
+    height: 3rem;
+    margin: 0px;
+    border-left: 0px;
+    background-color: rgb(29,84,159);
+    border-radius: 0px 6px 6px 0px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-right: -417px;
+    margin-top: -48.2px;
+    border: 0px;
+}
+.footer_second{
+    display: flex;
+    flex-direction: column;
+}
+.our_product-img{
+    display: block;
+}
+.our_product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_img_first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_img_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_second{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our_product{
+    width: 94.95rem;
+}
+.our_product p{
+    margin: 0;
+    padding: 0.7rem 0.7rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 70px;
+    background-color: rgb(29,84,159);
+    border-radius: 88px;
+    margin-bottom: 15px;
+    width: 14rem;
+    text-align: center;
+    cursor: pointer;
+}
+.our_product-img{
+    width: 84.5rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.product_img_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our_product-img .product{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 2px;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.product_img_second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our_product-img .product img{
+    width: 10rem;
+    height: 5.62rem
+}
+.product p{
+    color: rgb(0, 0, 0);
+    margin-top: 24px;
+    margin-left: 17px;
+    font-weight: 1000;
+    font-size: 1rem;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.our_product-img .product:hover{
+    transform: scale(1.1);
+}
+.fa-circle-right{
+    position: absolute;
+    margin-left: 1373px;
+    font-size: 2.5rem;
+    color: tomato;
+    cursor: pointer;
+}
+.fa-circle-left{
+    position: absolute;
+    margin-right: 1373px;
+    font-size: 2.5rem;
+    color: tomato;
+    cursor: pointer;
+}
+.footer_third{
+    color: white;
+    height: 24rem;
+}
+
+/* ****************************** footer last container **************************************** */
+.footer_third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    background: url(footerimg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    background-blend-mode: overlay;
+    background-color: #08489c;
+    margin-top: 2.5rem;
+}
+.footernav p{
+    margin: 0;
+    font-size: 1.55rem;
+    padding: 1.2rem 0rem;
+}
+.footernav li{
+    list-style: none;
+    padding: 0.4rem 0rem;
+}
+.footernav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding:0px 0.6rem;
+    transition: all 0.3s ease-in-out;
+}
+.mapmenu{
+    width: 32rem;
+    height: 256px;
+    background-color: white;
+    border-radius: 3px;
+}
+.socialmedia{
+    width: 12rem;
+    height: 329px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footernav a:hover{
+    color: tomato;
+}
+.fa-location-dot{
+    color: tomato;
+    font-size: 18px;
+    padding: 0px 9px;
+}
+.head_office{
+    padding-left: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.fa-mobile{
+    color: tomato;
+    font-size: 18px;
+    padding: 0px 8.5px;
+}
+.fa-envelope{
+    color: tomato;
+    font-size: 18px;
+    padding: 0px 7px;
+}
+.pincode{
+    margin-left: 17px;
+}
+.map_img img{
+    width: 32rem;
+    height: 256px;
+    border-radius: 7px;
+}
+.icon_social a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.icon_social a:hover{
+    color: tomato;
+  }
+.icon_social li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.icons_footer{
+    font-size: 2rem;
+    color: tomato;
+}
+#icons a{
+  font-size: 1rem;
+ font-weight: 500;
+ font-family: 'Pacifico', cursive;
+} 
+/* **************************************** Footer icons *********************************** */
+.Facebooks{
+    background-color: white;
+    color: #007bff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 21px;
+    margin: 11px;
+}
+.Instagrams{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 21px;
+    margin: 11px;
+}
+.Linkedins{
+    background-color: white;
+    color: #0076B4;
+    text-align: center;
+    padding: 6px;
+    border-radius: 21px;
+    margin: 11px;
+}
+.Twitters{
+    background-color: white;
+    color: #1D9BF0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 21px;
+    margin: 11px;
+}
+.YouTubes{
+    background-color: white;
+    color: #FF0000;
+    text-align: center;
+    padding: 5px;
+    border-radius: 21px;
+    margin: 11px;
+}
+
+/* ********************************** fourth div **************************** */
+
+.footer_fourth{
+    width: 94.95rem;
+    height: 11rem;
+    background-color: rgb(127, 44, 44);
+}
+.our_brands{
+    width: 94.95rem;
+    height: 9rem;
+    background-color: white;
+}
+.copyright{
+    width: 94.95rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+}
+.copyright p{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+/* ******************************* marquee ****************************** */
+.rcHero{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.rcHero img{ 
+    width: 6rem;
+}
+.rcHero p{
+    margin: 0px;
+    font-weight: 500;
+    color: #121FCF;
+}
+.ourbrands{
+    text-align: center;
+    color: #CF1512;
+    font-weight: 500;
+    position: relative;
+}
+.our_brands{
+    position: relative;
+}
+
+/* ************************** Animation ****************************** */
+
+.ourbrands::after{
+    content: "";
+    position: absolute;
+    width: 111px;
+    height: 11px;
+    background-color: #134264;
+    border-radius: 18px;
+    margin-top: 25px;
+    margin-left: -90px;
+}
+.dot{
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    background-color: red;
+    margin-left: 716px;
+    border-radius: 17px;
+    margin-bottom: -29px;
+    margin-bottom: 100px;
+
+}
